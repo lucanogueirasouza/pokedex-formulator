@@ -1,7 +1,7 @@
 pokedex = [] #lista dos pokemons
 while True: 
     print ("----Pokedex----")
-    escolha = int(input("1 - Add Pokemon\n2 - Ver Todos\n3 - Filtar Elementos\n4 - Sair\nDigite: "))
+    escolha = int(input("1 - Add Pokemon\n2 - Ver Todos\n3 - Filtrar Elementos\n4 - Sair\nDigite: "))
     if escolha == 1: 
         pokemon = str(input("Digite o nome do Pokemon: ")).capitalize()
         elemento = str(input("Digite o Elemento: ")).capitalize()
